@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff4d6d; /* Taylor Swift pink */
+}
+
+button {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1c4d;
+}
+
+.hidden {
+    display: none;
+}
+
+#landing-page {
+    background-image: url('https://example.com/taylor-swift-background.jpg'); /* Replace with a nice image */
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
+
+#timeline {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.timeline-item {
+    margin: 20px 0;
+}
+
+#song-dedication {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#countdown {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#hidden-message {
+    margin-top: 20px;
+    background-color: #ffebf0;
+    padding: 20px;
+}
+
+#message-content {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taylor Swift-Themed Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <section id="landing-page">
+        <div class="greeting">
+            <h1>Welcome to [Girlfriend's Name]'s Swiftie Birthday Wonderland!</h1>
+            <p>Get ready to celebrate with Taylor's magic ✨</p>
+        </div>
+        <button id="startButton">Start the Fun!</button>
+    </section>
+
+    <!-- Interactive Timeline -->
+    <section id="timeline" class="hidden">
+        <h2>Our Love Story with Taylor's Tracks</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>"Our First Date" - "Lover"</h3>
+                <p>A special memory...</p>
+            </div>
+            <div class="timeline-item">
+                <h3>"Our First Concert" - "You Belong With Me"</h3>
+                <p>We sang our hearts out!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Song Dedication -->
+    <section id="song-dedication" class="hidden">
+        <h2>Pick Your Favorite Taylor Swift Song</h2>
+        <form id="song-form">
+            <label>
+                <input type="radio" name="song" value="Love Story"> Love Story
+            </label><br>
+            <label>
+                <input type="radio" name="song" value="All Too Well"> All Too Well
+            </label><br>
+            <label>
+                <input type="radio" name="song" value="Shake It Off"> Shake It Off
+            </label><br>
+            <button type="submit">Dedicate Song!</button>
+        </form>
+        <div id="song-result"></div>
+    </section>
+
+    <!-- Birthday Countdown -->
+    <section id="countdown">
+        <h2>Countdown to Your Birthday!</h2>
+        <p id="countdown-timer"></p>
+    </section>
+
+    <!-- Hidden Message -->
+    <section id="hidden-message" class="hidden">
+        <h2>Special Message</h2>
+        <p>Click below for a surprise!</p>
+        <button id="show-message">Reveal Message</button>
+        <div id="message-content" class="hidden">
+            <p>Happy Birthday, [Girlfriend's Name]! 💖</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
